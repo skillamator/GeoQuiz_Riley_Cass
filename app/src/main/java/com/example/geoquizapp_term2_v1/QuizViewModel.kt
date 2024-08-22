@@ -3,7 +3,7 @@ package com.example.geoquizapp_term2_v1
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 
-
+const val IS_CHEATER_KEY = "IS_CHEATER_KEY"
 const val CURRENT_INDEX_KEY = "CURRENT_INDEX_KEY"
 
 class QuizViewModel(private val savedStateHandle: SavedStateHandle): ViewModel() {
@@ -40,6 +40,9 @@ class QuizViewModel(private val savedStateHandle: SavedStateHandle): ViewModel()
         }
     }
 
+    var isCheater:Boolean
+        get()= savedStateHandle.get(IS_CHEATER_KEY)?:false
+        set(value) = savedStateHandle.set(IS_CHEATER_KEY, value)
 
 
 }
