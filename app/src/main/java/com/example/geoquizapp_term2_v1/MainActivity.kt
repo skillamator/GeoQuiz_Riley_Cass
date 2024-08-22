@@ -1,5 +1,6 @@
 package com.example.geoquizapp_term2_v1
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -32,7 +33,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         Log.d(TAG,"Got a QuizViewModel: $quizViewModel")
 
-
+        binding.cheatButton.setOnClickListener(){
+            val intent = Intent(this, CheatActivity::class.java)
+            startActivity(intent)
+        }
 
 
         binding.trueButton.setOnClickListener() {
