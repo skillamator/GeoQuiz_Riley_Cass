@@ -12,12 +12,11 @@ class QuizViewModel(private val savedStateHandle: SavedStateHandle): ViewModel()
 
 //list of instances of Question class
     val questionBank = listOf(
-        Question(R.string.question_australia, true),
-        Question(R.string.question_oceans, true),
-        Question(R.string.question_mideast, false),
-        Question(R.string.question_africa, false),
-        Question(R.string.question_americas, true),
-        Question(R.string.question_asia, true),
+        Question(R.string.question_1, false),
+        Question(R.string.question_2, true),
+        Question(R.string.question_3, false),
+        Question(R.string.question_4, true),
+        Question(R.string.question_5, false),
     )
 
 //saveStateHandle for currentIndex - returns the current index and saves currentIndex if activity is destroyed

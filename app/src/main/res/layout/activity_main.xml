@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:padding="30dp"
-            tools:text="@string/question_australia" />
+            tools:text="@string/question_1" />
 
 
 
