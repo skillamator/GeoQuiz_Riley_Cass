@@ -5,12 +5,11 @@
     <string name="correct_toast">Correct!</string>
     <string name="incorrect_toast">Incorrect! :( </string>
     <string name="next_text">Next</string>
-    <string name="question_australia">Canberra is the capital of Australia</string>
-    <string name="question_oceans">The Pacific Ocean is larger than the Atlantic Ocean</string>
-    <string name="question_mideast">The Suez Canal connects the Red Sea and the Indian Ocean</string>
-    <string name="question_africa">The source of the Nile River is in Egypt</string>
-    <string name="question_americas">The Amazon River is the longest river in the Americas</string>
-    <string name="question_asia">Lake Baikal is the world\'s oldest and deepest freshwater lake</string>
+    <string name="question_1">Fish first appeared on earth about 10 thousand years ago</string>
+    <string name="question_2">Fish were the first animals with a backbone to evolve</string>
+    <string name="question_3">The fin on a fish’s back is called the pectoral fin</string>
+    <string name="question_4">The world’s largest fish is a whale shark</string>
+    <string name="question_5">‘Skipjack’ is a type of salmon</string>
     <string name="previous_text">Previous</string>
     <string name="question_already_answered">"Question Already Answered :("</string>
     <string name="result_text">Quiz Complete!</string>
