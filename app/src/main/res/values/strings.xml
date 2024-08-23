@@ -14,11 +14,7 @@
     <string name="previous_text">Previous</string>
     <string name="question_already_answered">"Question Already Answered :("</string>
     <string name="result_text">Quiz Complete!</string>
-    <!--
-NOTE TO SELF:
-    Add eyebrow emoji to string below
--->
-    <string name="warning_text">Are you sure you want to do this? </string>
+    <string name="warning_text">Are you sure you want to do this?🤨</string>
     <string name="show_answer_button">Show Answer</string>
     <string name="cheat_button">Cheat!</string>
     <string name="judgement_toast" tools:ignore="Typos">Cheating is wrong tssk tssk </string>
